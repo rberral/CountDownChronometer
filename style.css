@@ -1,0 +1,24 @@
+input[type="range"]{
+    width: 100px;
+    float: left;
+    border-radius: 50px;
+}
+
+input {
+	width: 40px;  
+    margin-left: 5px;
+}
+
+label{
+	font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+.row {
+	padding-bottom:2em !important;
+}
+
+.row div {
+	padding-bottom:2em !important;
+}
+}
